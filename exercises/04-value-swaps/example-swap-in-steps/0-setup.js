@@ -1,8 +1,5 @@
 'use strict';
 
-// this file shows the initial swap exercise
-//  before you have written any code
-
 // declare & assign variables
 let a = "y";
 let b = "x";

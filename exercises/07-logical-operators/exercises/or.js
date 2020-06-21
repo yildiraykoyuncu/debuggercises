@@ -1,10 +1,15 @@
 'use strict';
 
 // write a function that behaves the same as ||
-//  ... without using ||, only using ? :
-const or = (left, right) => {
-  return _ ? _ : _;
-};
+//  ... without using ||
+function or(left, right) {
+    if (left) {
+        return left;
+    } else {
+        return right;
+    }
+
+}
 
 const _1_expect = 0;
 const _1_actual = or(0, 0);

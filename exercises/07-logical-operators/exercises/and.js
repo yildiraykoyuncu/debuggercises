@@ -1,10 +1,14 @@
 'use strict';
 
 // write a function that behaves the same as &&
-//  ... without using &&, only using ? :
-const and = (left, right) => {
-  return _ ? _ : _;
-};
+//  ... without using &&
+function and(left, right) {
+    if (!left) {
+        return left
+    } else {
+        return right
+    }
+}
 
 const _1_expect = 0;
 const _1_actual = and(0, 0);
@@ -34,7 +38,7 @@ const _7_expect = false;
 const _7_actual = and(true, false);
 console.assert(_7_actual === _7_expect, 'Test 7');
 
-const _8_expect = NaN;
+const _8_expect = and(NaN);
 const _8_actual = and(NaN, undefined);
 console.assert(Object.is(_8_actual, _8_expect), 'Test 8');
 

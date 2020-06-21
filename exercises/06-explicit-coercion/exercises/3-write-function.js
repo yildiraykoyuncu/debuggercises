@@ -5,9 +5,9 @@
    Number
    ===
 */
-const mystery = (x, y) => {
-
-};
+function mystery(x, y) {
+    return Number(x) === Number(y);
+}
 
 // all of the test cases are correct
 
@@ -46,4 +46,3 @@ console.assert(_8_actual === _8_expect, 'Test 8');
 const _9_expect = false;
 const _9_actual = mystery(undefined, undefined);
 console.assert(_9_actual === _9_expect, 'Test 9');
-
