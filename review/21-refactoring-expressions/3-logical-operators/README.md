@@ -1,28 +1,19 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[21-refactoring-expressions](../README.md)/3-logical-operators 
 
-- [/1.js](#1js) - _pass_ 
-- [/2.js](#2js) - _pass_ 
-- [/3.js](#3js) - _pass_ 
+- [/1.js](#1js)  
+- [/2.js](#2js)  
+- [/3.js](#3js)  
 ---
 
 ## /1.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/21-refactoring-expressions/3-logical-operators/1.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-```
+> [review source](..\..\..\exercises\21-refactoring-expressions\3-logical-operators/1.js)
 
 ```js
 'use strict';
@@ -72,18 +63,9 @@ console.assert(Object.is(_6_actual, _6_expect), 'Test 6');
 
 ## /2.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/21-refactoring-expressions/3-logical-operators/2.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-```
+> [review source](..\..\..\exercises\21-refactoring-expressions\3-logical-operators/2.js)
 
 ```js
 'use strict';
@@ -133,18 +115,9 @@ console.assert(Object.is(_6_actual, _6_expect), 'Test 6');
 
 ## /3.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/21-refactoring-expressions/3-logical-operators/3.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-```
+> [review source](..\..\..\exercises\21-refactoring-expressions\3-logical-operators/3.js)
 
 ```js
 'use strict';

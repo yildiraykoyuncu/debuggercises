@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[19-implicit-coercion](../README.md)/1-write-tests-relational 
 
@@ -14,20 +14,20 @@
 
 > incomplete 
 >
-> [review source](../../../exercises/19-implicit-coercion/1-write-tests-relational/greater-than-or-equal-to.js)
+> [review source](..\..\..\exercises\19-implicit-coercion\1-write-tests-relational/greater-than-or-equal-to.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/19-implicit-coercion/1-write-tests-relational/greater-than-or-equal-to.js:11:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\19-implicit-coercion\1-write-tests-relational\greater-than-or-equal-to.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -103,20 +103,20 @@ console.assert(_9_expect === _9_native, 'Test 9');
 
 > incomplete 
 >
-> [review source](../../../exercises/19-implicit-coercion/1-write-tests-relational/greater-than.js)
+> [review source](..\..\..\exercises\19-implicit-coercion\1-write-tests-relational/greater-than.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/19-implicit-coercion/1-write-tests-relational/greater-than.js:11:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\19-implicit-coercion\1-write-tests-relational\greater-than.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -192,20 +192,20 @@ console.assert(_9_expect === _9_native, 'Test 9');
 
 > incomplete 
 >
-> [review source](../../../exercises/19-implicit-coercion/1-write-tests-relational/less-than-or-equal-to.js)
+> [review source](..\..\..\exercises\19-implicit-coercion\1-write-tests-relational/less-than-or-equal-to.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/19-implicit-coercion/1-write-tests-relational/less-than-or-equal-to.js:11:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\19-implicit-coercion\1-write-tests-relational\less-than-or-equal-to.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -281,20 +281,20 @@ console.assert(_9_expect === _9_native, 'Test 9');
 
 > incomplete 
 >
-> [review source](../../../exercises/19-implicit-coercion/1-write-tests-relational/less-than.js)
+> [review source](..\..\..\exercises\19-implicit-coercion\1-write-tests-relational/less-than.js)
 
 ```txt
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/19-implicit-coercion/1-write-tests-relational/less-than.js:11:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\19-implicit-coercion\1-write-tests-relational\less-than.js:11:19)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js

@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../README.md)/01-variables 
 
@@ -9,8 +9,8 @@
   - [/2-reusing-variables.js](./examples/README.md#2-reusing-variablesjs)  
   - [/3-const-vs-let.js](./examples/README.md#3-const-vs-letjs) - _error_ 
 - [/exercises](./exercises/README.md)
-  - [/1-let.js](./exercises/README.md#1-letjs) - _incomplete_ 
-  - [/2-let.js](./exercises/README.md#2-letjs) - _incomplete_ 
-  - [/3-let-or-const.js](./exercises/README.md#3-let-or-constjs) - _incomplete_ 
-  - [/4-let-or-const.js](./exercises/README.md#4-let-or-constjs) - _incomplete_ 
-  - [/5-let-or-const.js](./exercises/README.md#5-let-or-constjs) - _incomplete_ 
+  - [/1-let.js](./exercises/README.md#1-letjs)  
+  - [/2-let.js](./exercises/README.md#2-letjs)  
+  - [/3-let-or-const.js](./exercises/README.md#3-let-or-constjs)  
+  - [/4-let-or-const.js](./exercises/README.md#4-let-or-constjs)  
+  - [/5-let-or-const.js](./exercises/README.md#5-let-or-constjs)  

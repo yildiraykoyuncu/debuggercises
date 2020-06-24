@@ -1,14 +1,29 @@
 'use strict';
 
 // refactor this function ot use if/else statements
-const conditional = (a, b) => {
+/*const conditional = (a, b) => {
   const result = !a && !b
     ? a
     : a && b
       ? b
       : typeof a;
   return result;
-};
+};*/
+
+const conditional = (a, b) => {
+    let result;
+
+    if (!a && !b) {
+        result = a;
+    } else {
+        if (a && b) {
+            result = b;
+        } else {
+            result = typeof a;
+        }
+    }
+    return result;
+}
 
 // path 1
 const _1_expect = 0;

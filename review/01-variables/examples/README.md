@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[01-variables](../README.md)/examples 
 
@@ -13,15 +13,7 @@
 
 >  
 >
-> [review source](../../../exercises/01-variables/examples/1-declaration-assignment-reassignment.js)
-
-```txt
-LOG: undefined
-LOG: first value
-LOG: second value
-LOG: hi!
-LOG: bye!
-```
+> [review source](..\..\..\exercises\01-variables\examples/1-declaration-assignment-reassignment.js)
 
 ```js
 'use strict';
@@ -59,20 +51,14 @@ console.log(anotherVariable);
 
 >  
 >
-> [review source](../../../exercises/01-variables/examples/2-reusing-variables.js)
-
-```txt
-LOG: oak
-LOG: oak bed
-LOG: oak bed frame
-```
+> [review source](..\..\..\exercises\01-variables\examples/2-reusing-variables.js)
 
 ```js
 'use strict';
 
 // you can use values stored in one variable to assign a value to another
 
-const wood = 'oak';
+let wood = 'oak';
 console.log(wood);
 
 let furniture = wood + ' bed';
@@ -93,20 +79,20 @@ console.log(furniture);
 
 > error 
 >
-> [review source](../../../exercises/01-variables/examples/3-const-vs-let.js)
+> [review source](..\..\..\exercises\01-variables\examples/3-const-vs-let.js)
 
 ```txt
 UNCAUGHT: TypeError: Assignment to constant variable.
-    at Object.<anonymous> (  ...  /exercises/01-variables/examples/3-const-vs-let.js:19:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\01-variables\examples\3-const-vs-let.js:19:19)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js

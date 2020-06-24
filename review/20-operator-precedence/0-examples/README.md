@@ -1,30 +1,22 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[20-operator-precedence](../README.md)/0-examples 
 
-- [/readme.js](#readmejs) - _pass_ 
-- [/1-literals.js](#1-literalsjs) - _pass_ 
-- [/2-literals.js](#2-literalsjs) - _pass_ 
-- [/3-literals.js](#3-literalsjs) - _pass_ 
-- [/4-variables.js](#4-variablesjs) - _pass_ 
-- [/5-variables.js](#5-variablesjs) - _pass_ 
+- [/readme.js](#readmejs)  
+- [/1-literals.js](#1-literalsjs)  
+- [/2-literals.js](#2-literalsjs)  
+- [/3-literals.js](#3-literalsjs)  
+- [/4-variables.js](#4-variablesjs)  
+- [/5-variables.js](#5-variablesjs)  
 ---
 
 ## /readme.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/0-examples/readme.js)
-
-```txt
-+ PASS: Step 0
-+ PASS: Step 1
-+ PASS: Step 2
-+ PASS: Step 3
-+ PASS: Step 4
-```
+> [review source](..\..\..\exercises\20-operator-precedence\0-examples/readme.js)
 
 ```js
 'use strict';
@@ -84,17 +76,9 @@ console.assert(step4 === expected, 'Step 4');
 
 ## /1-literals.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/0-examples/1-literals.js)
-
-```txt
-+ PASS: Step 0
-+ PASS: Step 1
-+ PASS: Step 2
-+ PASS: Step 3
-+ PASS: Step 4
-```
+> [review source](..\..\..\exercises\20-operator-precedence\0-examples/1-literals.js)
 
 ```js
 'use strict';
@@ -140,16 +124,9 @@ console.assert(step4 === expected, 'Step 4');
 
 ## /2-literals.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/0-examples/2-literals.js)
-
-```txt
-+ PASS: Step 0
-+ PASS: Step 1
-+ PASS: Step 2
-+ PASS: Step 3
-```
+> [review source](..\..\..\exercises\20-operator-precedence\0-examples/2-literals.js)
 
 ```js
 'use strict';
@@ -195,16 +172,9 @@ console.assert(step3 === expected, 'Step 3');
 
 ## /3-literals.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/0-examples/3-literals.js)
-
-```txt
-+ PASS: Step 0
-+ PASS: Step 1
-+ PASS: Step 2
-+ PASS: Step 3
-```
+> [review source](..\..\..\exercises\20-operator-precedence\0-examples/3-literals.js)
 
 ```js
 'use strict';
@@ -251,16 +221,9 @@ console.assert(step3 === expected, 'Step 3');
 
 ## /4-variables.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/0-examples/4-variables.js)
-
-```txt
-+ PASS: Step 0
-+ PASS: Step 1
-+ PASS: Step 2
-+ PASS: Step 3
-```
+> [review source](..\..\..\exercises\20-operator-precedence\0-examples/4-variables.js)
 
 ```js
 'use strict';
@@ -309,16 +272,9 @@ console.assert(step3 === expected, 'Step 3');
 
 ## /5-variables.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/0-examples/5-variables.js)
-
-```txt
-+ PASS: Step 0
-+ PASS: Step 1
-+ PASS: Step 2
-+ PASS: Step 3
-```
+> [review source](..\..\..\exercises\20-operator-precedence\0-examples/5-variables.js)
 
 ```js
 'use strict';

@@ -1,6 +1,6 @@
 'use strict';
 
-const conditional = (a, b) => {
+/*const conditional = (a, b) => {
   let result;
   if (typeof a === 'number') {
     if (typeof b === 'number') {
@@ -16,7 +16,12 @@ const conditional = (a, b) => {
     }
   }
   return result;
-};
+};*/
+
+const conditional = (a, b) => {
+    const result = typeof a === 'number' ? typeof b === 'number' ? a + b : b : typeof b === 'string' ? b + a : a;
+    return result;
+}
 
 // path 1
 const _1_expect = 24;

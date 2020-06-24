@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../README.md)/21-refactoring-expressions 
 
@@ -15,20 +15,20 @@
   - [/7-or-and-or.js](./0-examples/README.md#7-or-and-orjs)  
   - [/8-all-together.js](./0-examples/README.md#8-all-togetherjs)  
 - [/1-coercion-and-comparing](./1-coercion-and-comparing/README.md)
-  - [/1.js](./1-coercion-and-comparing/README.md#1js) - _pass_ 
-  - [/2.js](./1-coercion-and-comparing/README.md#2js) - _pass_ 
-  - [/3.js](./1-coercion-and-comparing/README.md#3js) - _pass_ 
+  - [/1.js](./1-coercion-and-comparing/README.md#1js)  
+  - [/2.js](./1-coercion-and-comparing/README.md#2js)  
+  - [/3.js](./1-coercion-and-comparing/README.md#3js)  
 - [/2-arithmetic](./2-arithmetic/README.md)
-  - [/1.js](./2-arithmetic/README.md#1js) - _pass_ 
-  - [/2.js](./2-arithmetic/README.md#2js) - _pass_ 
-  - [/3.js](./2-arithmetic/README.md#3js) - _pass_ 
+  - [/1.js](./2-arithmetic/README.md#1js)  
+  - [/2.js](./2-arithmetic/README.md#2js)  
+  - [/3.js](./2-arithmetic/README.md#3js)  
 - [/3-logical-operators](./3-logical-operators/README.md)
-  - [/1.js](./3-logical-operators/README.md#1js) - _pass_ 
-  - [/2.js](./3-logical-operators/README.md#2js) - _pass_ 
-  - [/3.js](./3-logical-operators/README.md#3js) - _pass_ 
+  - [/1.js](./3-logical-operators/README.md#1js)  
+  - [/2.js](./3-logical-operators/README.md#2js)  
+  - [/3.js](./3-logical-operators/README.md#3js)  
 - [/4-all-together](./4-all-together/README.md)
-  - [/1.js](./4-all-together/README.md#1js) - _pass_ 
-  - [/2.js](./4-all-together/README.md#2js) - _pass_ 
-  - [/3.js](./4-all-together/README.md#3js) - _pass_ 
-  - [/4.js](./4-all-together/README.md#4js) - _pass_ 
-  - [/5.js](./4-all-together/README.md#5js) - _pass_ 
+  - [/1.js](./4-all-together/README.md#1js)  
+  - [/2.js](./4-all-together/README.md#2js)  
+  - [/3.js](./4-all-together/README.md#3js)  
+  - [/4.js](./4-all-together/README.md#4js)  
+  - [/5.js](./4-all-together/README.md#5js)  

@@ -1,13 +1,13 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../README.md)/19-implicit-coercion 
 
 - [/0-examples](./0-examples/README.md)
   - [/0-complicated-but-learnable.js](./0-examples/README.md#0-complicated-but-learnablejs)  
-  - [/1-plus.js](./0-examples/README.md#1-plusjs) - _pass_ 
-  - [/2-loose-equality.js](./0-examples/README.md#2-loose-equalityjs) - _pass_ 
+  - [/1-plus.js](./0-examples/README.md#1-plusjs)  
+  - [/2-loose-equality.js](./0-examples/README.md#2-loose-equalityjs)  
 - [/1-write-tests-arithmetic](./1-write-tests-arithmetic/README.md)
   - [/division.js](./1-write-tests-arithmetic/README.md#divisionjs) - _incomplete_ 
   - [/multiplication.js](./1-write-tests-arithmetic/README.md#multiplicationjs) - _incomplete_ 
@@ -21,6 +21,6 @@
   - [/less-than-or-equal-to.js](./1-write-tests-relational/README.md#less-than-or-equal-tojs) - _incomplete_ 
   - [/less-than.js](./1-write-tests-relational/README.md#less-thanjs) - _incomplete_ 
 - [/2-replicate](./2-replicate/README.md)
-  - [/loose-inequality.js](./2-replicate/README.md#loose-inequalityjs) - _fail_ 
+  - [/loose-inequality.js](./2-replicate/README.md#loose-inequalityjs)  
   - [/remainder.js](./2-replicate/README.md#remainderjs) - _error_ 
-  - [/unary-minus.js](./2-replicate/README.md#unary-minusjs) - _fail_ 
+  - [/unary-minus.js](./2-replicate/README.md#unary-minusjs)  

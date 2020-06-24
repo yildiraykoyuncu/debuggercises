@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[21-refactoring-expressions](../README.md)/0-examples 
 
@@ -19,13 +19,7 @@
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/0-expanding.js)
-
-```txt
-LOG: 0:  1
-LOG: 1:  1
-LOG: 2:  1
-```
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/0-expanding.js)
 
 ```js
 'use strict';
@@ -108,7 +102,7 @@ LOG: 2:  1
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/1-types-and-comparisons.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/1-types-and-comparisons.js)
 
 ```js
 'use strict';
@@ -154,7 +148,7 @@ const refactorOperation3 = (a) => {
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/2-arithmetic.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/2-arithmetic.js)
 
 ```js
 'use strict';
@@ -200,7 +194,7 @@ const refactorOperation3 = (a, b) => {
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/3-unary-operators.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/3-unary-operators.js)
 
 ```js
 'use strict';
@@ -262,7 +256,7 @@ const refactorOperation4 = (a, b) => {
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/4-ternaries.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/4-ternaries.js)
 
 ```js
 'use strict';
@@ -318,7 +312,7 @@ const expandConditionalBodies = (a, b) => {
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/5-and.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/5-and.js)
 
 ```js
 'use strict';
@@ -373,7 +367,7 @@ const expandTheExpressions = (a, b) => {
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/6-or.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/6-or.js)
 
 ```js
 'use strict';
@@ -427,7 +421,7 @@ const expandTheExpressions = (a, b) => {
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/7-or-and-or.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/7-or-and-or.js)
 
 ```js
 'use strict';
@@ -503,7 +497,7 @@ const expandExpressionsAndRename = (a, b) => {
 
 >  
 >
-> [review source](../../../exercises/21-refactoring-expressions/0-examples/8-all-together.js)
+> [review source](..\..\..\exercises\21-refactoring-expressions\0-examples/8-all-together.js)
 
 ```js
 'use strict';

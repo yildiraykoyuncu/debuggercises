@@ -1,37 +1,37 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[11-refactoring-conditionals](../README.md)/0-examples 
 
 - [/0-statement-and-operator.js](#0-statement-and-operatorjs) - _error (syntax)_ 
-- [/1-if-else.js](#1-if-elsejs) - _pass_ 
-- [/2-if-else-if-else.js](#2-if-else-if-elsejs) - _pass_ 
-- [/3-nested.js](#3-nestedjs) - _pass_ 
+- [/1-if-else.js](#1-if-elsejs)  
+- [/2-if-else-if-else.js](#2-if-else-if-elsejs)  
+- [/3-nested.js](#3-nestedjs)  
 ---
 
 ## /0-statement-and-operator.js 
 
 > error (syntax) 
 >
-> [review source](../../../exercises/11-refactoring-conditionals/0-examples/0-statement-and-operator.js)
+> [review source](..\..\..\exercises\11-refactoring-conditionals\0-examples/0-statement-and-operator.js)
 
 ```txt
-UNCAUGHT:   ...  /exercises/11-refactoring-conditionals/0-examples/0-statement-and-operator.js:35
+UNCAUGHT:   ...  \exercises\11-refactoring-conditionals\0-examples\0-statement-and-operator.js:35
 const ifResult = if (value) {
                  ^^
 
 SyntaxError: Unexpected token 'if'
-    at wrapSafe (internal/modules/cjs/loader.js:1116:16)
-    at Module._compile (internal/modules/cjs/loader.js:1164:27)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.compileFunction (vm.js:344:18)
+    at wrapSafe (internal/modules/cjs/loader.js:1106:15)
+    at Module._compile (internal/modules/cjs/loader.js:1140:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
 ```
 
 ```js
@@ -88,20 +88,9 @@ ternaryCondition
 
 ## /1-if-else.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/11-refactoring-conditionals/0-examples/1-if-else.js)
-
-```txt
-+ PASS: Test 1: Statement
-+ PASS: Test 1: Operator
-+ PASS: Test 2: Statement
-+ PASS: Test 2: Operator
-+ PASS: Test 3: Statement
-+ PASS: Test 3: Operator
-+ PASS: Test 4: Statement
-+ PASS: Test 4: Operator
-```
+> [review source](..\..\..\exercises\11-refactoring-conditionals\0-examples/1-if-else.js)
 
 ```js
 'use strict';
@@ -167,24 +156,9 @@ console.assert(_4_actualOperator === _4_expect, 'Test 4: Operator');
 
 ## /2-if-else-if-else.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/11-refactoring-conditionals/0-examples/2-if-else-if-else.js)
-
-```txt
-+ PASS: Test 1: Statement
-+ PASS: Test 1: Operator
-+ PASS: Test 2: Statement
-+ PASS: Test 2: Operator
-+ PASS: Test 3: Statement
-+ PASS: Test 3: Operator
-+ PASS: Test 4: Statement
-+ PASS: Test 4: Operator
-+ PASS: Test 5: Statement
-+ PASS: Test 5: Operator
-+ PASS: Test 6: Statement
-+ PASS: Test 6: Operator
-```
+> [review source](..\..\..\exercises\11-refactoring-conditionals\0-examples/2-if-else-if-else.js)
 
 ```js
 'use strict';
@@ -272,28 +246,9 @@ console.assert(_6_actualOperator === _6_expect, 'Test 6: Operator');
 
 ## /3-nested.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/11-refactoring-conditionals/0-examples/3-nested.js)
-
-```txt
-+ PASS: Test 1: Statement
-+ PASS: Test 1: Operator
-+ PASS: Test 2: Statement
-+ PASS: Test 2: Operator
-+ PASS: Test 3: Statement
-+ PASS: Test 3: Operator
-+ PASS: Test 4: Statement
-+ PASS: Test 4: Operator
-+ PASS: Test 5: Statement
-+ PASS: Test 5: Operator
-+ PASS: Test 6: Statement
-+ PASS: Test 6: Operator
-+ PASS: Test 7: Statement
-+ PASS: Test 7: Operator
-+ PASS: Test 8: Statement
-+ PASS: Test 8: Operator
-```
+> [review source](..\..\..\exercises\11-refactoring-conditionals\0-examples/3-nested.js)
 
 ```js
 'use strict';

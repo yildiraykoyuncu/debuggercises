@@ -120,6 +120,12 @@
               "path": "/4-testing-with-assert.js"
             },
             {
+              "path": "/extra-object-is.js"
+            },
+            {
+              "path": "/extra-strict-inequality.js"
+            },
+            {
               "path": "/object-is.js"
             },
             {
@@ -326,6 +332,18 @@
             },
             {
               "path": "/5-short-circuiting.js"
+            },
+            {
+              "path": "/and.js"
+            },
+            {
+              "path": "/not.js"
+            },
+            {
+              "path": "/or.js"
+            },
+            {
+              "path": "/ternary.js"
             }
           ],
           "isExample": true
@@ -341,6 +359,70 @@
             },
             {
               "path": "/or.js"
+            },
+            {
+              "path": "/ternary.js"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "path": "/08-block-scope",
+      "dirs": [
+        {
+          "path": "/1-missing-values",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        },
+        {
+          "path": "/2-missing-variables",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        },
+        {
+          "path": "/3-assign-values",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
+            }
+          ]
+        },
+        {
+          "path": "/4-declare-and-assign",
+          "files": [
+            {
+              "path": "/1.js"
+            },
+            {
+              "path": "/2.js"
+            },
+            {
+              "path": "/3.js"
             }
           ]
         }
@@ -418,6 +500,66 @@
           ]
         }
       ]
+    },
+    {
+      "path": "/09-conditionals",
+      "dirs": [
+        {
+          "path": "/0-examples",
+          "files": [
+            {
+              "path": "/1-if-else.js"
+            },
+            {
+              "path": "/2-if-else-if-else.js"
+            },
+            {
+              "path": "/3-sequential-conditionals.js"
+            },
+            {
+              "path": "/4-nested-conditionals.js"
+            },
+            {
+              "path": "/5-unreachable-paths.js"
+            }
+          ],
+          "isExample": true
+        },
+        {
+          "path": "/1-execution-paths",
+          "files": [
+            {
+              "path": "/1-write-expected.js"
+            },
+            {
+              "path": "/2-write-arguments.js"
+            },
+            {
+              "path": "/3-write-function.js"
+            }
+          ]
+        },
+        {
+          "path": "/2-conditional-bodies",
+          "files": [
+            {
+              "path": "/1-write-expected.js"
+            },
+            {
+              "path": "/2-write-arguments.js"
+            },
+            {
+              "path": "/3-write-function.js"
+            }
+          ]
+        }
+      ],
+      "config": {
+        "console": false,
+        "debugger": true,
+        "flowViz": true,
+        "jsTutor": true
+      }
     },
     {
       "path": "/10-conditional-statements",
@@ -1183,5 +1325,5 @@
       }
     ]
   },
-  "lastBuild": "2020-06-21T09:05:10.645Z"
+  "lastBuild": "2020-06-24T05:15:55.508Z"
 }

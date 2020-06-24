@@ -11,18 +11,18 @@
  * @returns {string}
  */
 const areNotSameLength = (num1, num2) => {
-  if (typeof num1 !== 'number') { throw new TypeError('num1'); }
-  if (typeof num2 !== 'number') { throw new TypeError('num2'); }
+    if (typeof num1 !== 'number') { throw new TypeError('num1'); }
+    if (typeof num2 !== 'number') { throw new TypeError('num2'); }
 
-  const result = 'the same';
-  if (num1 = num2) {
-    result === `are {result}`;
-  } else {
-    result === "aren't ${result}";
-  }
+    let result = 'the same';
+    if (num1 === num2) {
+        result = `are ${result}`;
+    } else {
+        result = `aren't ${result}`;
+    }
 
-  if (typeof result !== 'string') { throw new TypeError('result'); }
-  return result;
+    if (typeof result !== 'string') { throw new TypeError('result'); }
+    return result;
 };
 
 

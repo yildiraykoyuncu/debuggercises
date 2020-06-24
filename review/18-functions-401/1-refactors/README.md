@@ -1,29 +1,20 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[18-functions-401](../README.md)/1-refactors 
 
-- [/1-implicit-to-explicit.js](#1-implicit-to-explicitjs) - _pass_ 
-- [/2-implicit-to-explicit.js](#2-implicit-to-explicitjs) - _pass_ 
-- [/3-explicit-to-implicit.js](#3-explicit-to-implicitjs) - _pass_ 
-- [/4-explicit-to-implicit.js](#4-explicit-to-implicitjs) - _pass_ 
+- [/1-implicit-to-explicit.js](#1-implicit-to-explicitjs)  
+- [/2-implicit-to-explicit.js](#2-implicit-to-explicitjs)  
+- [/3-explicit-to-implicit.js](#3-explicit-to-implicitjs)  
+- [/4-explicit-to-implicit.js](#4-explicit-to-implicitjs)  
 ---
 
 ## /1-implicit-to-explicit.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/18-functions-401/1-refactors/1-implicit-to-explicit.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-```
+> [review source](..\..\..\exercises\18-functions-401\1-refactors/1-implicit-to-explicit.js)
 
 ```js
 'use strict';
@@ -84,18 +75,9 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 
 ## /2-implicit-to-explicit.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/18-functions-401/1-refactors/2-implicit-to-explicit.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-```
+> [review source](..\..\..\exercises\18-functions-401\1-refactors/2-implicit-to-explicit.js)
 
 ```js
 'use strict';
@@ -157,18 +139,9 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 
 ## /3-explicit-to-implicit.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/18-functions-401/1-refactors/3-explicit-to-implicit.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-```
+> [review source](..\..\..\exercises\18-functions-401\1-refactors/3-explicit-to-implicit.js)
 
 ```js
 'use strict';
@@ -232,18 +205,9 @@ console.assert(Object.is(_6_actual, _6_expect), 'Test 6');
 
 ## /4-explicit-to-implicit.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/18-functions-401/1-refactors/4-explicit-to-implicit.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-```
+> [review source](..\..\..\exercises\18-functions-401\1-refactors/4-explicit-to-implicit.js)
 
 ```js
 'use strict';

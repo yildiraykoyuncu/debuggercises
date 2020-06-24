@@ -11,18 +11,18 @@
  * @returns {boolean}
  */
 const areNotSameLength = (str1, str2) => {
-  if (typeof str1 !== 'string') { throw new TypeError('str1'); }
-  if (typeof str2 !== 'string') { throw new TypeError('str2'); }
+    if (typeof str1 !== 'string') { throw new TypeError('str1'); }
+    if (typeof str2 !== 'string') { throw new TypeError('str2'); }
 
-  let result;
-  if (str1.Length = str2.Length) {
-    result = result + true;
-  } else {
-    result = result + false;
-  }
+    let result;
+    if (str1.Length === str2.Length) {
+        result = true;
+    } else {
+        result = false;
+    }
 
-  if (typeof result !== 'boolean') { throw new TypeError('result'); }
-  return result;
+    if (typeof result !== 'boolean') { throw new TypeError('result'); }
+    return result;
 };
 
 
@@ -44,10 +44,10 @@ const _4_expect = true;
 const _4_actual = areNotSameLength('birch', 'oak');
 console.assert(_4_actual === _4_expect, 'Test 4');
 
-const _5_expect = false;
+const _5_expect = true;
 const _5_actual = areNotSameLength('aspen', 'birch');
 console.assert(_5_actual === _5_expect, 'Test 5');
 
-const _6_expect = false;
+const _6_expect = true;
 const _6_actual = areNotSameLength('hi!', 'bye');
 console.assert(_6_actual === _6_expect, 'Test 6');

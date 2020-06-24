@@ -1,6 +1,6 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[20-operator-precedence](../README.md)/extra--syntax-trees 
 
@@ -19,7 +19,7 @@
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/readme.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/readme.js)
 
 ```js
 /* Syntax Trees
@@ -63,7 +63,7 @@ const good = 'bye';
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/1-types-and-comparisons.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/1-types-and-comparisons.js)
 
 ```js
 const expression = Number(Boolean(null) === true);
@@ -78,7 +78,7 @@ const expression = Number(Boolean(null) === true);
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/2-arithmetic.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/2-arithmetic.js)
 
 ```js
 const expression = 12 * (14 + 1) / 2;
@@ -93,7 +93,7 @@ const expression = 12 * (14 + 1) / 2;
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/3-unary-operators.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/3-unary-operators.js)
 
 ```js
 const expression = -3 * -(2 + 2) / !1;
@@ -108,7 +108,7 @@ const expression = -3 * -(2 + 2) / !1;
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/4-ternaries.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/4-ternaries.js)
 
 ```js
 const expression = 'a' === 'b' ? 2 * -1 : 2 * true;
@@ -123,7 +123,7 @@ const expression = 'a' === 'b' ? 2 * -1 : 2 * true;
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/5-and.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/5-and.js)
 
 ```js
 const expression = null * -1 && '' + 2;
@@ -138,7 +138,7 @@ const expression = null * -1 && '' + 2;
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/6-or.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/6-or.js)
 
 ```js
 const expression = '0' * -'1' || true + 2;
@@ -153,7 +153,7 @@ const expression = '0' * -'1' || true + 2;
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/7-or-and-or.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/7-or-and-or.js)
 
 ```js
 const expression = typeof undefined === 'string' || typeof 'string' === 'string' && 1000 !== 1e3;
@@ -168,7 +168,7 @@ const expression = typeof undefined === 'string' || typeof 'string' === 'string'
 
 >  
 >
-> [review source](../../../exercises/20-operator-precedence/extra--syntax-trees/8-all-together.js)
+> [review source](..\..\..\exercises\20-operator-precedence\extra--syntax-trees/8-all-together.js)
 
 ```js
 const expression = typeof 'true' === 'boolean' ? 0 || -1 : !null && !true;

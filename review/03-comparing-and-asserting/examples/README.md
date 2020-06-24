@@ -1,13 +1,15 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[03-comparing-and-asserting](../README.md)/examples 
 
 - [/1-strict-equality.js](#1-strict-equalityjs)  
 - [/2-extra-assignment-vs-comparison.js](#2-extra-assignment-vs-comparisonjs) - _error (syntax)_ 
-- [/3-console-assert.js](#3-console-assertjs) - _fail_ 
-- [/4-testing-with-assert.js](#4-testing-with-assertjs) - _pass_ 
+- [/3-console-assert.js](#3-console-assertjs)  
+- [/4-testing-with-assert.js](#4-testing-with-assertjs) - _incomplete_ 
+- [/extra-object-is.js](#extra-object-isjs)  
+- [/extra-strict-inequality.js](#extra-strict-inequalityjs)  
 - [/object-is.js](#object-isjs)  
 - [/strict-inequality.js](#strict-inequalityjs)  
 ---
@@ -16,20 +18,7 @@
 
 >  
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/1-strict-equality.js)
-
-```txt
-LOG: -- true comparisons --
-LOG: boolean  true
-LOG: boolean  true
-LOG: boolean  true
-LOG: -- false comparisons --
-LOG: boolean  false
-LOG: boolean  false
-LOG: boolean  false
-LOG: -- NaN is weird --
-LOG: boolean  false
-```
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/1-strict-equality.js)
 
 ```js
 'use strict';
@@ -84,24 +73,24 @@ console.log(typeof huh, huh);
 
 > error (syntax) 
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/2-extra-assignment-vs-comparison.js)
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/2-extra-assignment-vs-comparison.js)
 
 ```txt
-UNCAUGHT:   ...  /exercises/03-comparing-and-asserting/examples/2-extra-assignment-vs-comparison.js:29
+UNCAUGHT:   ...  \exercises\03-comparing-and-asserting\examples\2-extra-assignment-vs-comparison.js:29
 'value 2' = variable; // uncomment this line for an error
 ^^^^^^^^^
 
 SyntaxError: Invalid left-hand side in assignment
-    at wrapSafe (internal/modules/cjs/loader.js:1116:16)
-    at Module._compile (internal/modules/cjs/loader.js:1164:27)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.compileFunction (vm.js:344:18)
+    at wrapSafe (internal/modules/cjs/loader.js:1106:15)
+    at Module._compile (internal/modules/cjs/loader.js:1140:27)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1) 
 ```
 
 ```js
@@ -145,14 +134,9 @@ console.log(typeof thirdComparison, thirdComparison);
 
 ## /3-console-assert.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/3-console-assert.js)
-
-```txt
-+ PASS: this assertion passes
-- FAIL: this assertion fails
-```
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/3-console-assert.js)
 
 ```js
 'use strict';
@@ -185,18 +169,22 @@ In the console, only failing asserts are printed.
 
 ## /4-testing-with-assert.js 
 
-> pass 
+> incomplete 
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/4-testing-with-assert.js)
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/4-testing-with-assert.js)
 
 ```txt
-LOG: -- examples --
-+ PASS: Assertion 1
-+ PASS: Assertion 2
-+ PASS: Assertion 3
-LOG: -- practice exercises --
-+ PASS: Assertion 4
-+ PASS: Assertion 5
+UNCAUGHT: ReferenceError: _ is not defined
+    at Object.<anonymous> (  ...  \exercises\03-comparing-and-asserting\examples\4-testing-with-assert.js:28:33)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -227,14 +215,101 @@ console.assert(isTrue3, 'Assertion 3');
 console.log('-- practice exercises --');
 
 const comparison4 = NaN === NaN;
-// const isTrue4 = comparison4 === _; // exercise
-const isTrue4 = comparison4 === false; // solution
+const isTrue4 = comparison4 === _;
 console.assert(isTrue4, 'Assertion 4');
 
 const comparison5 = (typeof 4) === (typeof '4');
-// const isTrue5 = comparison5 === _; // exercise
-const isTrue5 = comparison5 === false; // solution
+const isTrue5 = comparison5 === _;
 console.assert(isTrue5, 'Assertion 5');
+
+```
+
+[TOP](#debuggercises)
+
+---
+
+## /extra-object-is.js 
+
+>  
+>
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/extra-object-is.js)
+
+```js
+'use strict';
+
+
+// almost the same as ===
+//  it's different in these ways:
+
+const strictEqualityZeros = -0 === +0;
+const objectIsZeros = Object.is(-0, +0);
+console.log('strictEqualityZeros:', typeof strictEqualityZeros, '\n', strictEqualityZeros);
+console.log('objectIsZeros:', typeof objectIsZeros, '\n', objectIsZeros);
+
+const strictEqualityNaN = NaN === NaN;
+const objectIsNaN = Object.is(NaN, NaN);
+console.log('strictEqualityNaN:', typeof strictEqualityNaN, '\n', strictEqualityNaN);
+console.log('objectIsNaN:', typeof objectIsNaN, '\n', objectIsNaN);
+
+
+// https://stackoverflow.com/questions/30543190/object-is-vs
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object/is
+
+
+```
+
+[TOP](#debuggercises)
+
+---
+
+## /extra-strict-inequality.js 
+
+>  
+>
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/extra-strict-inequality.js)
+
+```js
+'use strict';
+
+// !==, this operator will always evaluate to a boolean
+//  false: if the type & value are the same
+//  true: if either the type or value are different
+
+// if two values are the same, !== evaluates to true:
+console.log('-- false comparisons --');
+
+const isTrue1 = true !== true;
+console.log(typeof isTrue1, isTrue1);
+
+const isTrue2 = null !== null;
+console.log(typeof isTrue2, isTrue2);
+
+const isTrue3 = '4' !== '4';
+console.log(typeof isTrue3, isTrue3);
+
+
+// if two values are the same, !== evaluates to true:
+console.log('-- true comparisons --');
+
+// if they are not, it evaluates to false
+const isFalse1 = true !== false;
+console.log(typeof isFalse1, isFalse1);
+
+const isFalse2 = '4' !== 4;
+console.log(typeof isFalse2, isFalse2);
+
+const isFalse3 = 4 !== 4.1;
+console.log(typeof isFalse3, isFalse3);
+
+
+
+// NaN is a strange and special value in JavaScript
+//  it does not equal itself!
+console.log('-- NaN is weird --');
+
+const huh = NaN !== NaN;
+console.log(typeof huh, huh);
+
 
 ```
 
@@ -246,18 +321,7 @@ console.assert(isTrue5, 'Assertion 5');
 
 >  
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/object-is.js)
-
-```txt
-LOG: strictEqualityZeros:  boolean  
-  true
-LOG: objectIsZeros:  boolean  
-  false
-LOG: strictEqualityNaN:  boolean  
-  false
-LOG: objectIsNaN:  boolean  
-  true
-```
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/object-is.js)
 
 ```js
 'use strict';
@@ -291,20 +355,7 @@ console.log('objectIsNaN:', typeof objectIsNaN, '\n', objectIsNaN);
 
 >  
 >
-> [review source](../../../exercises/03-comparing-and-asserting/examples/strict-inequality.js)
-
-```txt
-LOG: -- false comparisons --
-LOG: boolean  false
-LOG: boolean  false
-LOG: boolean  false
-LOG: -- true comparisons --
-LOG: boolean  true
-LOG: boolean  true
-LOG: boolean  true
-LOG: -- NaN is weird --
-LOG: boolean  true
-```
+> [review source](..\..\..\exercises\03-comparing-and-asserting\examples/strict-inequality.js)
 
 ```js
 'use strict';

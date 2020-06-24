@@ -1,32 +1,20 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[06-explicit-coercion](../README.md)/examples 
 
 - [/1-string.js](#1-stringjs)  
 - [/2-boolean.js](#2-booleanjs)  
 - [/3-number.js](#3-numberjs)  
-- [/4-about-nan.js](#4-about-nanjs) - _fail_ 
+- [/4-about-nan.js](#4-about-nanjs)  
 ---
 
 ## /1-string.js 
 
 >  
 >
-> [review source](../../../exercises/06-explicit-coercion/examples/1-string.js)
-
-```txt
-LOG: 1  undefined  undefined  -->  string  undefined
-LOG: 2  object  null  -->  string  null
-LOG: 3  boolean  true  -->  string  true
-LOG: 4  boolean  false  -->  string  false
-LOG: 5  number  3  -->  string  3
-LOG: 6  number  1  -->  string  1
-LOG: 7  number  -2  -->  string  -2
-LOG: 8  number  12.3  -->  string  12.3
-LOG: 9  number  NaN  -->  string  NaN
-```
+> [review source](..\..\..\exercises\06-explicit-coercion\examples/1-string.js)
 
 ```js
 'use strict';
@@ -80,19 +68,7 @@ console.log(9, typeof _9_toCast, _9_toCast, '-->', typeof _9_string, _9_string);
 
 >  
 >
-> [review source](../../../exercises/06-explicit-coercion/examples/2-boolean.js)
-
-```txt
-LOG: 1  undefined  undefined  -->  boolean  false
-LOG: 2  object  null  -->  boolean  false
-LOG: 3  string    -->  boolean  false
-LOG: 4  string      -->  boolean  true
-LOG: 5  string  any other string  -->  boolean  true
-LOG: 6  number  0  -->  boolean  false
-LOG: 7  number  -1  -->  boolean  true
-LOG: 8  number  0.5  -->  boolean  true
-LOG: 9  number  -Infinity  -->  boolean  true
-```
+> [review source](..\..\..\exercises\06-explicit-coercion\examples/2-boolean.js)
 
 ```js
 'use strict';
@@ -146,19 +122,7 @@ console.log(9, typeof _9_toCast, _9_toCast, '-->', typeof _9_boolean, _9_boolean
 
 >  
 >
-> [review source](../../../exercises/06-explicit-coercion/examples/3-number.js)
-
-```txt
-LOG: 1  undefined  undefined  -->  number  NaN
-LOG: 2  object  null  -->  number  0
-LOG: 3  boolean  true  -->  number  1
-LOG: 4  boolean  false  -->  number  0
-LOG: 5  string    -->  number  0
-LOG: 6  string       -->  number  0
-LOG: 7  string  12.3  -->  number  12.3
-LOG: 8  string  -0.0  -->  number  0
-LOG: 9  string  four  -->  number  NaN
-```
+> [review source](..\..\..\exercises\06-explicit-coercion\examples/3-number.js)
 
 ```js
 'use strict';
@@ -210,30 +174,9 @@ console.log(9, typeof _9_toCast, _9_toCast, '-->', typeof _9_number, _9_number);
 
 ## /4-about-nan.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/06-explicit-coercion/examples/4-about-nan.js)
-
-```txt
-LOG: --- NaN does not equal NaN! 
-+ PASS: NaN is not equal to NaN
-- FAIL: NaN is equal to NaN
-LOG: --- Number.isNaN(x) returns true if a value is NaN 
-LOG: boolean  true
-LOG: boolean  false
-LOG: boolean  false
-LOG: boolean  false
-LOG: --- isNaN(x) returns true if a value casts to NaN 
-LOG: boolean  true
-LOG: boolean  true
-LOG: boolean  true
-LOG: boolean  false
-LOG: --- isNaN is the same as Number then Number.isNaN
-LOG: boolean  true
-LOG: boolean  true
-LOG: boolean  true
-LOG: boolean  false
-```
+> [review source](..\..\..\exercises\06-explicit-coercion\examples/4-about-nan.js)
 
 ```js
 'use strict';

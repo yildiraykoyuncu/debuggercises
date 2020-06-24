@@ -1,28 +1,19 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[12-functions-301](../README.md)/2-fix-the-bugs 
 
-- [/1.js](#1js) - _fail_ 
-- [/2.js](#2js) - _error_ 
-- [/3.js](#3js) - _fail_ 
+- [/1.js](#1js)  
+- [/2.js](#2js)  
+- [/3.js](#3js)  
 ---
 
 ## /1.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/12-functions-301/2-fix-the-bugs/1.js)
-
-```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-```
+> [review source](..\..\..\exercises\12-functions-301\2-fix-the-bugs/1.js)
 
 ```js
 'use strict';
@@ -38,18 +29,18 @@
  * @returns {string}
  */
 const areNotSameLength = (num1, num2) => {
-  if (typeof num1 !== 'number') { throw new TypeError('num1'); }
-  if (typeof num2 !== 'number') { throw new TypeError('num2'); }
+    if (typeof num1 !== 'number') { throw new TypeError('num1'); }
+    if (typeof num2 !== 'number') { throw new TypeError('num2'); }
 
-  const result = 'the same';
-  if (num1 = num2) {
-    result === `are {result}`;
-  } else {
-    result === "aren't ${result}";
-  }
+    let result = 'the same';
+    if (num1 === num2) {
+        result = `are ${result}`;
+    } else {
+        result = `aren't ${result}`;
+    }
 
-  if (typeof result !== 'string') { throw new TypeError('result'); }
-  return result;
+    if (typeof result !== 'string') { throw new TypeError('result'); }
+    return result;
 };
 
 
@@ -78,7 +69,6 @@ console.assert(_5_actual === _5_expect, 'Test 5');
 const _6_expect = "aren't the same";
 const _6_actual = areNotSameLength(1000, 1e4);
 console.assert(_6_actual === _6_expect, 'Test 6');
-
 ```
 
 [TOP](#debuggercises)
@@ -87,23 +77,9 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 
 ## /2.js 
 
-> error 
+>  
 >
-> [review source](../../../exercises/12-functions-301/2-fix-the-bugs/2.js)
-
-```txt
-UNCAUGHT: TypeError: Cannot create property 'Length' on string 'carboat'
-    at areNotSameLength (  ...  /exercises/12-functions-301/2-fix-the-bugs/2.js:18:19)
-    at Object.<anonymous> (  ...  /exercises/12-functions-301/2-fix-the-bugs/2.js:32:19)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1) 
-```
+> [review source](..\..\..\exercises\12-functions-301\2-fix-the-bugs/2.js)
 
 ```js
 'use strict';
@@ -119,18 +95,18 @@ UNCAUGHT: TypeError: Cannot create property 'Length' on string 'carboat'
  * @returns {boolean}
  */
 const areNotSameLength = (str1, str2) => {
-  if (typeof str1 !== 'string') { throw new TypeError('str1'); }
-  if (typeof str2 !== 'string') { throw new TypeError('str2'); }
+    if (typeof str1 !== 'string') { throw new TypeError('str1'); }
+    if (typeof str2 !== 'string') { throw new TypeError('str2'); }
 
-  let result;
-  if (str1.Length = str2.Length) {
-    result = result + true;
-  } else {
-    result = result + false;
-  }
+    let result;
+    if (str1.Length === str2.Length) {
+        result = true;
+    } else {
+        result = false;
+    }
 
-  if (typeof result !== 'boolean') { throw new TypeError('result'); }
-  return result;
+    if (typeof result !== 'boolean') { throw new TypeError('result'); }
+    return result;
 };
 
 
@@ -152,14 +128,13 @@ const _4_expect = true;
 const _4_actual = areNotSameLength('birch', 'oak');
 console.assert(_4_actual === _4_expect, 'Test 4');
 
-const _5_expect = false;
+const _5_expect = true;
 const _5_actual = areNotSameLength('aspen', 'birch');
 console.assert(_5_actual === _5_expect, 'Test 5');
 
-const _6_expect = false;
+const _6_expect = true;
 const _6_actual = areNotSameLength('hi!', 'bye');
 console.assert(_6_actual === _6_expect, 'Test 6');
-
 ```
 
 [TOP](#debuggercises)
@@ -168,21 +143,12 @@ console.assert(_6_actual === _6_expect, 'Test 6');
 
 ## /3.js 
 
-> fail 
+>  
 >
-> [review source](../../../exercises/12-functions-301/2-fix-the-bugs/3.js)
-
-```txt
-- FAIL: Test 1
-- FAIL: Test 2
-- FAIL: Test 3
-- FAIL: Test 4
-- FAIL: Test 5
-- FAIL: Test 6
-```
+> [review source](..\..\..\exercises\12-functions-301\2-fix-the-bugs/3.js)
 
 ```js
-'use strict';
+"use strict";
 
 // fix the mistakes in this conditional
 //  all of the bugs are in the conditional statement
@@ -196,49 +162,53 @@ console.assert(_6_actual === _6_expect, 'Test 6');
  * @returns {string}
  */
 const longestOrBoth = (str1, str2) => {
-  if (typeof str1 !== 'string') { throw new TypeError('str1'); }
-  if (typeof str2 !== 'string') { throw new TypeError('str2'); }
+    if (typeof str1 !== "string") {
+        throw new TypeError("str1");
+    }
+    if (typeof str2 !== "string") {
+        throw new TypeError("str2");
+    }
 
-  let result = '';
-  if (str1 >= str2) {
-    result === str1;
-  } if (str1 <= str2) {
-    result === str2;
-  } else {
-    result === `${str1}${str2}`;
-  }
+    let result = "";
+    if (str1.length > str2.length) {
+        result = str1;
+    } else if (str1.length < str2.length) {
+        result = str2;
+    } else {
+        result = `${str1}${str2}`;
+    }
 
-  if (typeof result !== 'string') { throw new TypeError('result'); }
-  return result;
+    if (typeof result !== "string") {
+        throw new TypeError("result");
+    }
+    return result;
 };
-
 
 // all of the tests are correct, there are not bugs below here!
 
-const _1_expect = 'car boat';
-const _1_actual = longestOrBoth('carboat', 'car boat');
-console.assert(_1_actual === _1_expect, 'Test 1');
+const _1_expect = "car boat";
+const _1_actual = longestOrBoth("carboat", "car boat");
+console.assert(_1_actual === _1_expect, "Test 1");
 
-const _2_expect = 'waterfall';
-const _2_actual = longestOrBoth('water', 'waterfall');
-console.assert(_2_actual === _2_expect, 'Test 2');
+const _2_expect = "waterfall";
+const _2_actual = longestOrBoth("water", "waterfall");
+console.assert(_2_actual === _2_expect, "Test 2");
 
-const _3_expect = 'water fall';
-const _3_actual = longestOrBoth('water fall', 'waterfall');
-console.assert(_3_actual === _3_expect, 'Test 3');
+const _3_expect = "water fall";
+const _3_actual = longestOrBoth("water fall", "waterfall");
+console.assert(_3_actual === _3_expect, "Test 3");
 
-const _4_expect = 'birch';
-const _4_actual = longestOrBoth('birch', 'oak');
-console.assert(_4_actual === _4_expect, 'Test 4');
+const _4_expect = "birch";
+const _4_actual = longestOrBoth("birch", "oak");
+console.assert(_4_actual === _4_expect, "Test 4");
 
-const _5_expect = 'aspenbirch';
-const _5_actual = longestOrBoth('aspen', 'birch');
-console.assert(_5_actual === _5_expect, 'Test 5');
+const _5_expect = "aspenbirch";
+const _5_actual = longestOrBoth("aspen", "birch");
+console.assert(_5_actual === _5_expect, "Test 5");
 
-const _6_expect = 'hi!bye';
-const _6_actual = longestOrBoth('hi!', 'bye');
-console.assert(_6_actual === _6_expect, 'Test 6');
-
+const _6_expect = "hi!bye";
+const _6_actual = longestOrBoth("hi!", "bye");
+console.assert(_6_actual === _6_expect, "Test 6");
 ```
 
 [TOP](#debuggercises)

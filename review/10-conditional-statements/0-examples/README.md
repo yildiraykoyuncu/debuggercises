@@ -1,31 +1,22 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[10-conditional-statements](../README.md)/0-examples 
 
-- [/1-if.js](#1-ifjs) - _pass_ 
-- [/2-if-else.js](#2-if-elsejs) - _pass_ 
-- [/3-if-else-if-else.js](#3-if-else-if-elsejs) - _pass_ 
-- [/4-sequential-conditionals.js](#4-sequential-conditionalsjs) - _pass_ 
-- [/5-nested-conditionals.js](#5-nested-conditionalsjs) - _pass_ 
-- [/6-unreachable-paths.js](#6-unreachable-pathsjs) - _pass_ 
+- [/1-if.js](#1-ifjs)  
+- [/2-if-else.js](#2-if-elsejs)  
+- [/3-if-else-if-else.js](#3-if-else-if-elsejs)  
+- [/4-sequential-conditionals.js](#4-sequential-conditionalsjs)  
+- [/5-nested-conditionals.js](#5-nested-conditionalsjs)  
+- [/6-unreachable-paths.js](#6-unreachable-pathsjs)  
 ---
 
 ## /1-if.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/10-conditional-statements/0-examples/1-if.js)
-
-```txt
-+ PASS: Test 1: path
-+ PASS: Test 2: path
-+ PASS: Test 3: path
-+ PASS: Test 4: path 2
-+ PASS: Test 5: path 2
-+ PASS: Test 6: path 2
-```
+> [review source](..\..\..\exercises\10-conditional-statements\0-examples/1-if.js)
 
 ```js
 'use strict';
@@ -79,20 +70,9 @@ console.assert(_6_actual === _6_expect, 'Test 6: path 2');
 
 ## /2-if-else.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/10-conditional-statements/0-examples/2-if-else.js)
-
-```txt
-+ PASS: Test 1: path 1
-+ PASS: Test 2: path 1
-+ PASS: Test 3: path 1
-+ PASS: Test 4: path 2
-+ PASS: Test 5: path 2
-+ PASS: Test 6: path 2
-+ PASS: Test 7: path 2
-+ PASS: Test 8: path 2
-```
+> [review source](..\..\..\exercises\10-conditional-statements\0-examples/2-if-else.js)
 
 ```js
 'use strict';
@@ -157,21 +137,9 @@ console.assert(_8_actual === _8_expect, 'Test 8: path 2');
 
 ## /3-if-else-if-else.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/10-conditional-statements/0-examples/3-if-else-if-else.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-+ PASS: Test 7
-+ PASS: Test 8
-+ PASS: Test 9
-```
+> [review source](..\..\..\exercises\10-conditional-statements\0-examples/3-if-else-if-else.js)
 
 ```js
 'use strict';
@@ -247,20 +215,9 @@ console.assert(_9_actual === _9_expect, 'Test 9');
 
 ## /4-sequential-conditionals.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/10-conditional-statements/0-examples/4-sequential-conditionals.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-+ PASS: Test 7
-+ PASS: Test 8
-```
+> [review source](..\..\..\exercises\10-conditional-statements\0-examples/4-sequential-conditionals.js)
 
 ```js
 'use strict';
@@ -339,20 +296,9 @@ console.assert(_8_actual === _8_expect, 'Test 8');
 
 ## /5-nested-conditionals.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/10-conditional-statements/0-examples/5-nested-conditionals.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-+ PASS: Test 7
-+ PASS: Test 8
-```
+> [review source](..\..\..\exercises\10-conditional-statements\0-examples/5-nested-conditionals.js)
 
 ```js
 'use strict';
@@ -433,20 +379,9 @@ console.assert(_8_actual === _8_expect, 'Test 8');
 
 ## /6-unreachable-paths.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/10-conditional-statements/0-examples/6-unreachable-paths.js)
-
-```txt
-+ PASS: Test 1
-+ PASS: Test 2
-+ PASS: Test 3
-+ PASS: Test 4
-+ PASS: Test 5
-+ PASS: Test 6
-+ PASS: Test 7
-+ PASS: Test 8
-```
+> [review source](..\..\..\exercises\10-conditional-statements\0-examples/6-unreachable-paths.js)
 
 ```js
 'use strict';

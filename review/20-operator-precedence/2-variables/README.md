@@ -1,35 +1,34 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[20-operator-precedence](../README.md)/2-variables 
 
 - [/1-coercing-and-comparing.js](#1-coercing-and-comparingjs) - _incomplete_ 
-- [/2-arithmetic.js](#2-arithmeticjs) - _pass_ 
-- [/3-logical-operators.js](#3-logical-operatorsjs) - _pass_ 
-- [/4-all-together.js](#4-all-togetherjs) - _pass_ 
-- [/5-all-together.js](#5-all-togetherjs) - _pass_ 
+- [/2-arithmetic.js](#2-arithmeticjs)  
+- [/3-logical-operators.js](#3-logical-operatorsjs)  
+- [/4-all-together.js](#4-all-togetherjs)  
+- [/5-all-together.js](#5-all-togetherjs)  
 ---
 
 ## /1-coercing-and-comparing.js 
 
 > incomplete 
 >
-> [review source](../../../exercises/20-operator-precedence/2-variables/1-coercing-and-comparing.js)
+> [review source](..\..\..\exercises\20-operator-precedence\2-variables/1-coercing-and-comparing.js)
 
 ```txt
-+ PASS: Step 0
 UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/20-operator-precedence/2-variables/1-coercing-and-comparing.js:17:15)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
+    at Object.<anonymous> (  ...  \exercises\20-operator-precedence\2-variables\1-coercing-and-comparing.js:17:15)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1196:10)
+    at Module.load (internal/modules/cjs/loader.js:1040:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:929:14)
+    at Module.require (internal/modules/cjs/loader.js:1080:19)
+    at require (internal/modules/cjs/helpers.js:72:18)
+    at evaluate (  ...  \scripts\lib\evaluate.js:28:7)
+    at Object.<anonymous> (  ...  \scripts\review.js:119:1)
+    at Module._compile (internal/modules/cjs/loader.js:1176:30) 
 ```
 
 ```js
@@ -72,13 +71,9 @@ console.assert(step3 === expected, 'Step 3');
 
 ## /2-arithmetic.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/2-variables/2-arithmetic.js)
-
-```txt
-+ PASS: Step 0
-```
+> [review source](..\..\..\exercises\20-operator-precedence\2-variables/2-arithmetic.js)
 
 ```js
 'use strict';
@@ -105,13 +100,9 @@ console.assert(step0 === expected, 'Step 0');
 
 ## /3-logical-operators.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/2-variables/3-logical-operators.js)
-
-```txt
-+ PASS: Step 0
-```
+> [review source](..\..\..\exercises\20-operator-precedence\2-variables/3-logical-operators.js)
 
 ```js
 'use strict';
@@ -138,13 +129,9 @@ console.assert(step0 === expected, 'Step 0');
 
 ## /4-all-together.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/2-variables/4-all-together.js)
-
-```txt
-+ PASS: Step 0
-```
+> [review source](..\..\..\exercises\20-operator-precedence\2-variables/4-all-together.js)
 
 ```js
 'use strict';
@@ -170,13 +157,9 @@ console.assert(step0 === expected, 'Step 0');
 
 ## /5-all-together.js 
 
-> pass 
+>  
 >
-> [review source](../../../exercises/20-operator-precedence/2-variables/5-all-together.js)
-
-```txt
-+ PASS: Step 0
-```
+> [review source](..\..\..\exercises\20-operator-precedence\2-variables/5-all-together.js)
 
 ```js
 'use strict';

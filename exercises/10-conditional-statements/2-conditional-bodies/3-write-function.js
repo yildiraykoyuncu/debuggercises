@@ -4,15 +4,15 @@
 */
 
 const mystery = (a, b) => {
-  let result = '';
-  if (typeof a === typeof b) {
-    result = _;
-  } else if (Boolean(a) === Boolean(b)) {
-    result = _;
-  } else {
-    result = _;
-  }
-  return result;
+    let result = '';
+    if (typeof a === typeof b) {
+        result = a;
+    } else if (Boolean(a) === Boolean(b)) {
+        result = b;
+    } else {
+        result = a ? a : b;
+    }
+    return result;
 };
 
 // path 1

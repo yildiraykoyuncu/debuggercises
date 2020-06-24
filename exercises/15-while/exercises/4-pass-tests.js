@@ -8,16 +8,19 @@
  * @returns {string}
  */
 const alternator = (range, str1, str2) => {
-  if (typeof range !== 'number') { throw new TypeError('range'); }
-  if (typeof str1 !== 'string') { throw new TypeError('str1'); }
-  if (typeof str2 !== 'string') { throw new TypeError('str2'); }
+    if (typeof range !== 'number') { throw new TypeError('range'); }
+    if (typeof str1 !== 'string') { throw new TypeError('str1'); }
+    if (typeof str2 !== 'string') { throw new TypeError('str2'); }
 
-  while (_) {
+    let i = 0;
+    let result = '';
+    while (i < range) {
+        result += i % 2 === 0 ? `${str1}` : `${str2}`;
+        i++;
+    };
 
-  }
-
-  if (typeof result !== 'string') { throw new TypeError('result'); }
-  return result;
+    if (typeof result !== 'string') { throw new TypeError('result'); }
+    return result;
 };
 
 
@@ -44,5 +47,3 @@ console.assert(_5_actual === _5_expect, 'Test  5');
 const _6_expect = '#######';
 const _6_actual = alternator(7, '#', '#');
 console.assert(_6_actual === _6_expect, 'Test  6');
-
-

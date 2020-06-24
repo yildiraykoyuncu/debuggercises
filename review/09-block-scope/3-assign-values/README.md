@@ -1,45 +1,29 @@
 # Debuggercises 
 
-> 6/21/2020, 9:05:10 AM 
+> 24/06/2020, 07:15:55 
 
 ## [exercises](../../README.md)/[09-block-scope](../README.md)/3-assign-values 
 
-- [/1.js](#1js) - _incomplete_ 
-- [/2.js](#2js) - _incomplete_ 
-- [/3.js](#3js) - _incomplete_ 
+- [/1.js](#1js)  
+- [/2.js](#2js)  
+- [/3.js](#3js)  
 ---
 
 ## /1.js 
 
-> incomplete 
+>  
 >
-> [review source](../../../exercises/09-block-scope/3-assign-values/1.js)
-
-```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/09-block-scope/3-assign-values/1.js:3:11)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
-```
+> [review source](..\..\..\exercises\09-block-scope\3-assign-values/1.js)
 
 ```js
 'use strict';
 
-const a = _;
-console.assert(a === '12', 'Test 1');
-{
-  const a = _;
-  console.assert(a === true, 'Test 2');
+const a = '12';
+console.assert(a === '12', 'Test 1'); {
+    const a = true;
+    console.assert(a === true, 'Test 2');
 }
 console.assert(a === '12', 'Test 3');
-
 ```
 
 [TOP](#debuggercises)
@@ -48,38 +32,22 @@ console.assert(a === '12', 'Test 3');
 
 ## /2.js 
 
-> incomplete 
+>  
 >
-> [review source](../../../exercises/09-block-scope/3-assign-values/2.js)
-
-```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/09-block-scope/3-assign-values/2.js:3:9)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
-```
+> [review source](..\..\..\exercises\09-block-scope\3-assign-values/2.js)
 
 ```js
 'use strict';
 
-let x = _;
-console.assert(x === null, 'Test 1: x');
-{
-  x = _;
-  const y = _;
+let x = null;
+console.assert(x === null, 'Test 1: x'); {
+    x = false;
+    const y = null;
 
-  console.assert(x === false, 'Test 2: x');
-  console.assert(y === null, 'Test 3: y');
+    console.assert(x === false, 'Test 2: x');
+    console.assert(y === null, 'Test 3: y');
 }
 console.assert(x === false, 'Test 4: x');
-
 ```
 
 [TOP](#debuggercises)
@@ -88,39 +56,23 @@ console.assert(x === false, 'Test 4: x');
 
 ## /3.js 
 
-> incomplete 
+>  
 >
-> [review source](../../../exercises/09-block-scope/3-assign-values/3.js)
-
-```txt
-UNCAUGHT: ReferenceError: _ is not defined
-    at Object.<anonymous> (  ...  /exercises/09-block-scope/3-assign-values/3.js:3:9)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30)
-    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1220:10)
-    at Module.load (internal/modules/cjs/loader.js:1049:32)
-    at Function.Module._load (internal/modules/cjs/loader.js:937:14)
-    at Module.require (internal/modules/cjs/loader.js:1089:19)
-    at require (internal/modules/cjs/helpers.js:73:18)
-    at evaluate (  ...  /scripts/lib/evaluate.js:28:7)
-    at Object.<anonymous> (  ...  /scripts/review.js:119:1)
-    at Module._compile (internal/modules/cjs/loader.js:1200:30) 
-```
+> [review source](..\..\..\exercises\09-block-scope\3-assign-values/3.js)
 
 ```js
 'use strict';
 
-let m = _;
-console.assert(m === 'tall', 'Test 1: m');
-{
-  let l = _;
-  const m = _;
-  l = _;
-  console.assert(m === 'short', 'Test 2: m');
-  console.assert(l === 'mini', 'Test 3: l');
+let m = 'tall';
+console.assert(m === 'tall', 'Test 1: m'); {
+    let l = 'mini';
+    const m = 'short';
+    l = 'mini';
+    console.assert(m === 'short', 'Test 2: m');
+    console.assert(l === 'mini', 'Test 3: l');
 }
-m = _;
+m = 'medium';
 console.assert(m === 'medium', 'Test 4: m');
-
 ```
 
 [TOP](#debuggercises)
